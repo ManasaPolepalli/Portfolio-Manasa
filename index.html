@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manasa Polepalli | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animation">
+    <div class="circle" style="--i:0"></div>
+    <div class="circle" style="--i:1"></div>
+    <div class="circle" style="--i:2"></div>
+    <div class="circle" style="--i:3"></div>
+    <div class="circle" style="--i:4"></div>
+  </div>
+
+  <header>
+    <h1>🚀 MANASA POLEPALLI</h1>
+    <nav>
+      <a href="#about" onclick="navigateTo('about.html')">About Me</a>
+      <a href="#skills" onclick="navigateTo('skills.html')">Skills</a>
+      <a href="#certificates" onclick="navigateTo('certificates.html')">Certificates</a>
+      <a href="#projects" onclick="navigateTo('project.html')">Projects</a>
+      <a href="#contact" class="contact-btn">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="profile-container">
+      <div class="profile-image">
+        <img src="manasa.jpg" alt="Manasa Polepalli" class="profile-img spin" />
+        <div class="image-border"></div>
+      </div>
+    </div>
+    <h2>Hello, I'm <span class="highlight">MANASA</span> <span class="typing" id="typing"></span></h2>
+    <h3 class="subtitle">Aspiring Full Stack Developer & Web Developer</h3>
+    <div class="hero-btns">
+      <a href="#projects" class="btn primary-btn" onclick="navigateTo('project.html')">View My Work</a>
+      <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down bounce"></i>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <a href="mailto:manasapolepalli12@email.com" class="footer-link" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="tel:+91-7416027217" class="footer-link" title="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="https://linkedin.com/in/manasa-polepalli-364447334" target="_blank" class="footer-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/ManasaPolepalli" target="_blank" class="footer-link" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" class="footer-link" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+    <p class="copyright">© 2024 Manasa Polepalli. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
